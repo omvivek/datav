@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b7d32ddef5004da5aeefe226eec9ceb1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b7d32ddef5004da5aeefe226eec9ceb1" ></div>
+        
+</body>
+<script>    
+    
+            var map_b7d32ddef5004da5aeefe226eec9ceb1 = L.map(
+                "map_b7d32ddef5004da5aeefe226eec9ceb1",
+                {
+                    center: [21.1458, 79.0882],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_95ba1a8516a349cc85d33c5584f5be63 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b7d32ddef5004da5aeefe226eec9ceb1);
+        
+    
+            var feature_group_4f0193ff0fcf41f09c0e36b5d3a41fe1 = L.featureGroup(
+                {}
+            ).addTo(map_b7d32ddef5004da5aeefe226eec9ceb1);
+        
+    
+            var marker_86ca203a2bfc45e59bd69dbe5d8506f9 = L.marker(
+                [18.65291, 73.75865],
+                {}
+            ).addTo(feature_group_4f0193ff0fcf41f09c0e36b5d3a41fe1);
+        
+    
+            var icon_761ead7b31e442e88047032623b91ca6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_86ca203a2bfc45e59bd69dbe5d8506f9.setIcon(icon_761ead7b31e442e88047032623b91ca6);
+        
+    
+        var popup_3a819850475241d48f632d8ec75d1ea8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4015bed63d414dccba83d0480b505ead = $(`<div id="html_4015bed63d414dccba83d0480b505ead" style="width: 100.0%; height: 100.0%;"><b>Country  : </b>INDIA<br> <b>Capital : </b> delhi<br> <img src=https://blogger.googleusercontent.com/img/a/AVvXsEhA3cRahtcTdXdClDgTLSjllQ878tBwfylQRgqHia4nZ0sWhSMRc5B4RFlcCbgI_rtu3oP7oe7n1yCny4KoCfShjO_9vFhOTnYTsPsC31-Id-rQCC_uEHiBIr_PgbYhQ6fY1_EJZEdKfpvtmH7lko7AnoXyJ9p6pt8Ma6lMyb6Kj0yJXF-F0LvIFw=s320 height=142 width=290></div>`)[0];
+            popup_3a819850475241d48f632d8ec75d1ea8.setContent(html_4015bed63d414dccba83d0480b505ead);
+        
+
+        marker_86ca203a2bfc45e59bd69dbe5d8506f9.bindPopup(popup_3a819850475241d48f632d8ec75d1ea8)
+        ;
+
+        
+    
+    
+            var marker_766c7c04485d4dd598b86f7aabe8ce57 = L.marker(
+                [13.0644, 80.28065],
+                {}
+            ).addTo(feature_group_4f0193ff0fcf41f09c0e36b5d3a41fe1);
+        
+    
+            var icon_844d2f9ea8054e6196ce937d2c2beee7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_766c7c04485d4dd598b86f7aabe8ce57.setIcon(icon_844d2f9ea8054e6196ce937d2c2beee7);
+        
+    
+        var popup_45864bb8f6fa4605ad5508636e77288f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10004479d616474f817ed589d49cc64c = $(`<div id="html_10004479d616474f817ed589d49cc64c" style="width: 100.0%; height: 100.0%;"><b>Country  : </b>INDIA<br> <b>Capital : </b> delhi<br> <img src=https://blogger.googleusercontent.com/img/a/AVvXsEiMGGq3PL5ViZyTV34vb3xOHi0bch_dgOVbuyALwhipgpRkRygOUJyjjbxFMM85Dq0L7vZZKsj1foZrz9uNxn6Qa9qw0S0qRQ_vs-9dB5PDt_xBX84k_yTVg5nm0YB2Wl4w8BmbRoYlzPNVnJuF4wdZ9NjKr3KvAGradCDeG0ql7EPN3xpXA2YuMQ=s320 height=142 width=290></div>`)[0];
+            popup_45864bb8f6fa4605ad5508636e77288f.setContent(html_10004479d616474f817ed589d49cc64c);
+        
+
+        marker_766c7c04485d4dd598b86f7aabe8ce57.bindPopup(popup_45864bb8f6fa4605ad5508636e77288f)
+        ;
+
+        
+    
+    
+            var marker_f35d77b20082408cbcd6c4e6933bdef3 = L.marker(
+                [29.0, 78.0],
+                {}
+            ).addTo(feature_group_4f0193ff0fcf41f09c0e36b5d3a41fe1);
+        
+    
+            var icon_dde084abf7894e7a8ac4252e9d2ca106 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f35d77b20082408cbcd6c4e6933bdef3.setIcon(icon_dde084abf7894e7a8ac4252e9d2ca106);
+        
+    
+        var popup_1e53bacb8fc4457fb2efaaf62a1308b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9257b6325e7540748bb853162eb0f4a6 = $(`<div id="html_9257b6325e7540748bb853162eb0f4a6" style="width: 100.0%; height: 100.0%;"><b>Country  : </b>INDIA<br> <b>Capital : </b> delhi<br> <img src=https://blogger.googleusercontent.com/img/a/AVvXsEgoOfKFZDvxsasVDyorNAfJvecdnnXYkmpOOktG1NWWkCybZ4U4bmtKJw-yYLHDDvh7MJgy-SbWHmKyOn0HpxP00NQ3wTaWoGKYk1e32LWuYF7heWIN-pO2PrWgjHsR8gfMp4dDrc_oWQ0xYglmV_DXWIMgKZTwsfLvREVKm48l_dHt5pyGpEJ9wQ=s320 height=142 width=290></div>`)[0];
+            popup_1e53bacb8fc4457fb2efaaf62a1308b5.setContent(html_9257b6325e7540748bb853162eb0f4a6);
+        
+
+        marker_f35d77b20082408cbcd6c4e6933bdef3.bindPopup(popup_1e53bacb8fc4457fb2efaaf62a1308b5)
+        ;
+
+        
+    
+    
+            var marker_f0122e02797b40e79082260cbd0034dc = L.marker(
+                [18.93623, 72.82683],
+                {}
+            ).addTo(feature_group_4f0193ff0fcf41f09c0e36b5d3a41fe1);
+        
+    
+            var icon_db02ba7ba38f4e62a461e8299be4ac7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f0122e02797b40e79082260cbd0034dc.setIcon(icon_db02ba7ba38f4e62a461e8299be4ac7e);
+        
+    
+        var popup_87137ffbf5c4409eafdc6fccd9a1aa6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57adb86bc83942319c1774686760f6d9 = $(`<div id="html_57adb86bc83942319c1774686760f6d9" style="width: 100.0%; height: 100.0%;"><b>Country  : </b>INDIA<br> <b>Capital : </b> delhi<br> <img src=https://blogger.googleusercontent.com/img/a/AVvXsEhmPW7x7AYJ4Ouqhkck5jtXUy1zWw-CrFolRg9roA5NA35nX667mp2CSWI_pym5Shsg3aQYIMb2QGFUiGDh5AlPq1zHEPieJI2N4efifyOMt87WAAE-Nb6ewr-HYUCjebGwPccERePkKJGrTGpdrvlT-9uOQKCCQI2ex3x8J3iYwmRJZ5bbV__FkA=s320 height=142 width=290></div>`)[0];
+            popup_87137ffbf5c4409eafdc6fccd9a1aa6e.setContent(html_57adb86bc83942319c1774686760f6d9);
+        
+
+        marker_f0122e02797b40e79082260cbd0034dc.bindPopup(popup_87137ffbf5c4409eafdc6fccd9a1aa6e)
+        ;
+
+        
+    
+    
+            var marker_b2ade056b35d40feabc673ed754c83c6 = L.marker(
+                [26.48168, 80.34592],
+                {}
+            ).addTo(feature_group_4f0193ff0fcf41f09c0e36b5d3a41fe1);
+        
+    
+            var icon_d84ee5d8c6a747688fc1ea23f4510707 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b2ade056b35d40feabc673ed754c83c6.setIcon(icon_d84ee5d8c6a747688fc1ea23f4510707);
+        
+    
+        var popup_760c48492cd649eabb87600e9cebd525 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_180b9a6af98248ad81e8e025b310f0e5 = $(`<div id="html_180b9a6af98248ad81e8e025b310f0e5" style="width: 100.0%; height: 100.0%;"><b>Country  : </b>INDIA<br> <b>Capital : </b> delhi<br> <img src=https://blogger.googleusercontent.com/img/a/AVvXsEhM_13WFOS7CpgRgku0Gr0HfiJH93Jge4sfO6ViyN8e2fqwU_nTwbcRmUwHPp7n-u7Ou1dRUcJgcHhahPaMThBDZwX_IILxEqjaJTqe1XMhUaluk_Bs3mEp1d7nTfYDHrxvbGKXvWf-VqGrEflUf-KEEiJrtexH0sZS3D_DmqcKvYhT1hkZv06zqQ=s320 height=142 width=290></div>`)[0];
+            popup_760c48492cd649eabb87600e9cebd525.setContent(html_180b9a6af98248ad81e8e025b310f0e5);
+        
+
+        marker_b2ade056b35d40feabc673ed754c83c6.bindPopup(popup_760c48492cd649eabb87600e9cebd525)
+        ;
+
+        
+    
+    
+            var marker_fa206536496c4c6186047257cd7cd8f4 = L.marker(
+                [12.97826, 77.59867],
+                {}
+            ).addTo(feature_group_4f0193ff0fcf41f09c0e36b5d3a41fe1);
+        
+    
+            var icon_137d804f0b0040c09dbf69654fe484d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa206536496c4c6186047257cd7cd8f4.setIcon(icon_137d804f0b0040c09dbf69654fe484d9);
+        
+    
+        var popup_4ce987da75564a9db8619f34e49af9a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a8a6cfe836f412d8fe8d486ff8eaa15 = $(`<div id="html_0a8a6cfe836f412d8fe8d486ff8eaa15" style="width: 100.0%; height: 100.0%;"><b>Country  : </b>INDIA<br> <b>Capital : </b> delhi<br> <img src=https://blogger.googleusercontent.com/img/a/AVvXsEhM_13WFOS7CpgRgku0Gr0HfiJH93Jge4sfO6ViyN8e2fqwU_nTwbcRmUwHPp7n-u7Ou1dRUcJgcHhahPaMThBDZwX_IILxEqjaJTqe1XMhUaluk_Bs3mEp1d7nTfYDHrxvbGKXvWf-VqGrEflUf-KEEiJrtexH0sZS3D_DmqcKvYhT1hkZv06zqQ=s320 height=142 width=290></div>`)[0];
+            popup_4ce987da75564a9db8619f34e49af9a1.setContent(html_0a8a6cfe836f412d8fe8d486ff8eaa15);
+        
+
+        marker_fa206536496c4c6186047257cd7cd8f4.bindPopup(popup_4ce987da75564a9db8619f34e49af9a1)
+        ;
+
+        
+    
+    
+            var marker_49f49b46677e4825ada7f9d8a1426967 = L.marker(
+                [34.28, 69.11],
+                {}
+            ).addTo(feature_group_4f0193ff0fcf41f09c0e36b5d3a41fe1);
+        
+    
+            var icon_cbb621a6ee56417c808cfcca5db5dffb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49f49b46677e4825ada7f9d8a1426967.setIcon(icon_cbb621a6ee56417c808cfcca5db5dffb);
+        
+    
+        var popup_13f6edcca5cc48a98c28756cc99b6b10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b147c53ffec4cb7b11b1fb61f1bd030 = $(`<div id="html_9b147c53ffec4cb7b11b1fb61f1bd030" style="width: 100.0%; height: 100.0%;"><b>Country  : </b>Afghanistan<br> <b>Capital : </b> kabul<br> <img src=https://blogger.googleusercontent.com/img/a/AVvXsEgkjuZPf38TDcmhpH3T0H7f0vOEJLaCqkUiDn0Fqt0IUr9-XpgXA1frGVzafpkwErpZAftAJpdAajz0ZR4dDq7XCb6nwdWJVYiwGqjlO0g-nBD1mjhwWfmQjb_hEuUIzJDNK_NVOUTLIbq5oYh92FQKLGIzDXbU2J33roQes7w-3KbwRDprfTH6KQ=s320 height=142 width=290></div>`)[0];
+            popup_13f6edcca5cc48a98c28756cc99b6b10.setContent(html_9b147c53ffec4cb7b11b1fb61f1bd030);
+        
+
+        marker_49f49b46677e4825ada7f9d8a1426967.bindPopup(popup_13f6edcca5cc48a98c28756cc99b6b10)
+        ;
+
+        
+    
+    
+            var marker_ffbdf7eeefce4c6ab17ca1bfe728d2cc = L.marker(
+                [41.18, 19.49],
+                {}
+            ).addTo(feature_group_4f0193ff0fcf41f09c0e36b5d3a41fe1);
+        
+    
+            var icon_93d5bab4ba5d40c3a3d11173f88338b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ffbdf7eeefce4c6ab17ca1bfe728d2cc.setIcon(icon_93d5bab4ba5d40c3a3d11173f88338b0);
+        
+    
+        var popup_30a8cd5523284ece84c435bff7b4c3cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11ab99a00097451b9a2b3881dc3d8d5d = $(`<div id="html_11ab99a00097451b9a2b3881dc3d8d5d" style="width: 100.0%; height: 100.0%;"><b>Country  : </b>Albania<br> <b>Capital : </b> Tirane<br> <img src=https://blogger.googleusercontent.com/img/a/AVvXsEgoOfKFZDvxsasVDyorNAfJvecdnnXYkmpOOktG1NWWkCybZ4U4bmtKJw-yYLHDDvh7MJgy-SbWHmKyOn0HpxP00NQ3wTaWoGKYk1e32LWuYF7heWIN-pO2PrWgjHsR8gfMp4dDrc_oWQ0xYglmV_DXWIMgKZTwsfLvREVKm48l_dHt5pyGpEJ9wQ=s320 height=142 width=290></div>`)[0];
+            popup_30a8cd5523284ece84c435bff7b4c3cd.setContent(html_11ab99a00097451b9a2b3881dc3d8d5d);
+        
+
+        marker_ffbdf7eeefce4c6ab17ca1bfe728d2cc.bindPopup(popup_30a8cd5523284ece84c435bff7b4c3cd)
+        ;
+
+        
+    
+</script>
